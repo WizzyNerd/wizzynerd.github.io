@@ -64,6 +64,10 @@
 .testimonial__item--small p {
   padding: 20px;
 }
+.testimonial__item--small p,
+.testimonial__item--small h3 {
+  text-align: center;
+}
 .testimonial__item--small {
   background-color: white;
   width: 400px;
