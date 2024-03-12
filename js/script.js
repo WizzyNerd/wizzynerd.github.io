@@ -130,3 +130,22 @@ function resetValues() {
 }
 displayBlock(slideIndex);
 displayBlockMobile(slideIndex);
+
+function updateTime() {
+    let time = new Date();
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    let dates = time.toLocaleDateString(undefined, options);
+    document.querySelector("#date").innerHTML = dates;
+    let hours = time.getHours();
+    hours = hours < 10 ? "0" + hours : hours;
+    const am = hours >= 12 ? "PM" : "AM";
+    //Changing to 12 hours format
+    hours = hours % 12;
+    hours = hours === 0 ? 12 : hours;
+    let min = time.getMinutes();
+    min = min < 10 ? "0" + min : min;
+
+    document.querySelector("#time").innerHTML = 'TIME:' + hours + ":" + min + am;
+}
+updateTime();
+setInterval(updateTime, 1000);
