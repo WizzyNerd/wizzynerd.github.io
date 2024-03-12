@@ -22,6 +22,15 @@
   .testimonial__text {
     margin: 5px;
   }
+  .testimonial__btn {
+    width: 237px;
+    height: 122px;
+    top: -32px;
+  }
+  .dots {
+    width: 30px;
+    height: 36px;
+  }
 }
 @media screen and (max-width: 760px) {
   .header__row,
