@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("../css/sections/header.css");
+@import url("../css/sections/info.css");
+@import url("../css/sections/team.css");
+@import url("../css/sections/message.css");
+@import url("../css/sections/projects.css");
+@import url("../css/sections/footer.css");
+@import url("../css/sections/testimonials.css");
+@import url("./media.css");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+/* Variables */
+:root {
+  --Title-font-family: "League Spartan", sans-serif;
+  --Title-font-weight: 600;
+  --Title-font-style: normal;
+  --Text-font-family: "Poppins", sans-serif;
+  --Text-font-weight: 400;
+  --Text-font-style: normal;
+  --Primary-color: #4a87ce;
+  --Primary-bg-color: #ffffff;
+  --Secondary-bg-color: #e3ebed;
+  --Secondary-color: rgb(0, 0, 0);
+}
+
+/* Utility */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--Primary-bg-color);
+  color: var(--Secondary-color);
+}
+
+p,
+a,
+button {
+  font-family: var(--Text-font-family);
+  font-weight: var(--Text-font-weight);
+  font-style: var(--Text-font-style);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--Title-font-family);
+  font-weight: var(--Title-font-weight);
+  font-style: var(--Title-font-style);
+}
