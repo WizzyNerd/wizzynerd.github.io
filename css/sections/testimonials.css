@@ -61,7 +61,7 @@
 .testimonial--small {
   display: none;
 }
-.testimonial--small p {
+.testimonial__item--small p {
   padding: 20px;
 }
 .testimonial__item--small {
