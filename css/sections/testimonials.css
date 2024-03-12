@@ -61,10 +61,13 @@
 .testimonial--small {
   display: none;
 }
+.testimonial--small p {
+  padding: 20px;
+}
 .testimonial__item--small {
   background-color: white;
   width: 400px;
-  height: 198px;
+  height: 350px;
 }
 .testimonial__btn--small {
   width: 346px;
